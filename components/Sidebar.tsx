@@ -30,7 +30,11 @@ function Sidebar() {
       />
       <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
 
-
+      {session && (
+        <button className="mt-4 w-full rounded-full bg-twitter p-4 text-sm font-bold text-white sm:text-base">
+          Tweet
+        </button>
+      )}
     </div>
   )
 }

@@ -14,7 +14,7 @@ import {
   useRef,
   useState,
 } from 'react'
-// import toast from 'react-hot-toast'
+import toast from 'react-hot-toast'
 import { Tweet, TweetBody } from '../typings'
 import { fetchTweets } from '../utils/fetchTweets'
 
